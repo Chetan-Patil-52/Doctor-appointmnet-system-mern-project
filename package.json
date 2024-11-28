@@ -7,13 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon serevr.js",
-    "client": "npm start --prefix ./client ",
+    "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "Chetan_Patil ",
+  "author": "Chetan_Patil",
   "license": "MIT",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.3.0",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "concurrently": "^7.6.0",
@@ -23,6 +24,7 @@
     "moment": "^2.29.3",
     "mongoose": "^6.13.5",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "react-redux": "^9.1.2"
   }
 }
